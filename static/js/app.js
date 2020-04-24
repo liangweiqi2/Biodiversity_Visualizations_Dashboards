@@ -118,6 +118,8 @@ function updateGraph(selectValue){
           data=data;
           var id_arr=data.samples
           var Selectvalue=id_arr.filter(d=>d.id==selectValue)
+          var subjectID=Selectvalue[0].id
+          console.log(subjectID)
           var selected=Selectvalue[0].otu_ids.slice(0,10)
           // var otu_ids_arr=selected.map(d=>d.otu_ids.slice(0,10))
           // Use otu_ids as the labels for the bar chart.
@@ -137,7 +139,7 @@ function updateGraph(selectValue){
                orientation: 'h',
                }]
           var layout1={
-               title: 'Sample_ID' +{selectValue},
+               title: `Sample_ID ${subjectID}`,
                yaxis: {
                     autorange: "reversed"
                }
@@ -164,7 +166,7 @@ function updateGraph(selectValue){
           }];
           var layout2 = {
                
-               title:{text:`Sample${Selectvalue}`},
+               title:{text:`Sample_ID ${subjectID}`},
                xaxis:{title:{ text:`OTU ID`}}
                };
           Plotly.newPlot('bubble', trace2, layout2);
