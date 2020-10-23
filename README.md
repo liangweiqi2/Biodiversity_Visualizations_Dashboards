@@ -1,6 +1,6 @@
 # Belly Button Biodiversity (Plot.ly)
 
-![Bacteria by filterforge.com](Images/bacteria.jpg)
+![Bacteria by filterforge.com](Img/bacteria.jpg)
 
 
 ## Step 1: Project description
@@ -34,7 +34,7 @@ The purpose of this project is to present the Biodiversity of Belly Button with 
 4. Set up the initial view by placing the first set of value in init function
 
 5. Button set outside of the function
-
+![Bacteria by filterforge.com](Img/button.jpg)
 6. Set different charts along with `forEach`,`.append`, `.text`,`.propery` etc
 
 7. Run them in the Bash
