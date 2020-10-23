@@ -19,25 +19,31 @@ The purpose of this project is to present the Biodiversity of Belly Button with 
 
 #steps 
 1. Download file from [robdunnlab](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) and transform the data type to json file.
-
+!(Img/json.png)
 2. Use of Javascript to read json file. 
-
+!(Img/HTML.png)
 3. Plan out the possible interactive charts and/or dashboard.
 
 * horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
   * `sample_values` as the values,`otu_ids` as the labels, and `otu_labels` as the hovertext for the bar chart
+  
 * bubble chart to displays all samples across the chart
   * `otu_ids` for the x values and `sample_values` for the y values
   * `sample_values` for the marker size, `otu_ids` for the marker colors, and`otu_labels` for the text values.
 * table to display an individual's demographic information.
+!(Img/example.png)
+* Set up the initial view by placing the first set of value in init function
 
-4. Set up the initial view by placing the first set of value in init function
-
-5. Button set outside of the function
+* Button set outside of the function
 ![Bacteria by filterforge.com](Img/button.jpg)
-6. Set different charts along with `forEach`,`.append`, `.text`,`.propery` etc
 
-7. Run them in the Bash
+* Set different charts along with `forEach`,`.append`, `.text`,`.propery` etc
+
+4. Create a HTML and create positions for charts 
+ 
+* file stage
+ index.html
+ static/js/app.js
 
 ## Analysis 
 
