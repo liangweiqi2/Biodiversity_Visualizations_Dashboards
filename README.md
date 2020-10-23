@@ -19,9 +19,9 @@ The purpose of this project is to present the Biodiversity of Belly Button with 
 
 #steps 
 1. Download file from [robdunnlab](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) and transform the data type to json file.
-!(Img/json.png)
+![Bacteria by filterforge.com](Img/json.png)
 2. Use of Javascript to read json file. 
-!(Img/HTML.png)
+![Bacteria by filterforge.com](Img/HTML.png)
 3. Plan out the possible interactive charts and/or dashboard.
 
 * horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
@@ -31,7 +31,7 @@ The purpose of this project is to present the Biodiversity of Belly Button with 
   * `otu_ids` for the x values and `sample_values` for the y values
   * `sample_values` for the marker size, `otu_ids` for the marker colors, and`otu_labels` for the text values.
 * table to display an individual's demographic information.
-!(Img/example.png)
+![Bacteria by filterforge.com](Img/example.png)
 * Set up the initial view by placing the first set of value in init function
 
 * Button set outside of the function
