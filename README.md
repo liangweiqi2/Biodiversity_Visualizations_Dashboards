@@ -15,7 +15,7 @@ The purpose of this project is to present the Biodiversity of Belly Button with 
 
 ## Link to the visualization
 
-* will be available shortly 
+https://liangweiqi2.github.io/Biodiversity_Visualizations_Dashboards/
 
 #steps 
 1. Download file from [robdunnlab](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) and transform the data type to json file.
